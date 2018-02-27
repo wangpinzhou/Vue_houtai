@@ -7,7 +7,7 @@ dist/
 # 忽略隐藏文件
 .*
 
-ddd
+
 
 # 不忽略git配置文件和babel配置文件
 !.gitignore
