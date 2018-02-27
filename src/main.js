@@ -1,3 +1,6 @@
+// 导入 默认初始化样式
+import 'normalize.css'
+
 //导入vue 库
 import Vue from 'Vue'
 
