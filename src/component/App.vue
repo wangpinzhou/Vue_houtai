@@ -1,24 +1,22 @@
-
 <template>
-<main>
-  <h1>{{title}}</h1>
-</main>
-  
+  <div>
+    {{val}}
+  </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      title: "Hello World!"
-    };
+  export default {
+    // es6语法 定义对象
+    data(){
+      return {
+        val:"test"
+      }
+    }
   }
-};
 </script>
 
-<style>
+<style scoped>
 
 </style>
-
 
 
