@@ -45,7 +45,7 @@ module.exports = {
 
       // 打包url文件 ,解析图片字体等;
       {
-        test: /\.(png|jpg|gif|jpeg|svg)$/,
+        test: /\.(png|jpg|gif|jpeg|svg|ttf|woff)$/,
         use: [
           // 指定小于10kb的图片才转为base64编码打包
           { loader: 'url-loader', options: { limit: 10240 } }
